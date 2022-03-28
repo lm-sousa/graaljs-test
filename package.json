@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/lm-sousa/graaljs-test/issues"
   },
-  "homepage": "https://github.com/lm-sousa/graaljs-test#readme",
-  "dependencies": {
-    "clavaapi": "file:../../clavaAPI"
-  }
+  "homepage": "https://github.com/lm-sousa/graaljs-test#readme"
 }
