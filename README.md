@@ -14,3 +14,7 @@ npm i ../clavaAPI
 ## Execution
 
 I included a build.gradle file. I just open the Main.java file in vscode and press F5 (provided that you have the recommended extensions for Java installed).
+
+# Testing GraalJS bugs
+
+Comment/uncomment lines 50 and 51 in Main.java and rerun the programm.
