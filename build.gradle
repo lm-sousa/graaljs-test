@@ -1,0 +1,24 @@
+plugins {
+    id 'application'
+    id 'distribution'
+}
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.graalvm.js', name: 'js', version: '21.0.0'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+    }
+}
+
+mainClassName = 'Main'
