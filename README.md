@@ -7,7 +7,10 @@ Test cases for GraalVM Javascript execution
 ```
 git clone git@github.com:lm-sousa/clavaAPI.git
 git clone git@github.com:lm-sousa/graaljs-test.git
-cd graaljs-test
+cd clavaAPI
+npm install
+npm run build
+cd ../graaljs-test
 npm i ../clavaAPI
 ```
 
